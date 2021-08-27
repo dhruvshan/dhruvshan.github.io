@@ -1,7 +1,6 @@
 const translate = document.querySelectorAll(".translate");
 const big_title = document.querySelector(".big-title");
 const french = document.querySelector(".french");
-const header = document.querySelector("header");
 const introduction = document.querySelector(".introduction");
 const content = document.querySelector(".content");
 const section = document.querySelector("section");
@@ -30,11 +29,11 @@ window.addEventListener('scroll', () => {
     element.style.opacity = scroll / (sectionY.top + section_height);
   })
 
-  big_title.style.opacity = - scroll / (header_height / 2) + 1;
+  big_title.style.opacity = - scroll / (header_height / 0.5) + 1;
   
 
-  french.style.opacity = - scroll / (header_height*0.7 / 2) + 1;
-  homeme.style.opacity = - scroll / (header_height / 2) + 0.8;
+  french.style.opacity = - scroll / (header_height*0.7 / 0.5) + 1;
+  homeme.style.opacity = - scroll / (header_height / 0.5) + 0.8;
 })
 
 const tl = gsap.timeline({defaults: {ease: "power1.out"}});
