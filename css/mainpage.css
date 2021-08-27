@@ -271,6 +271,7 @@ nav .container{
 }
 
 .myProjects .morepro a{
+    font-size: 1.2rem;
     color: aqua;
     opacity: 0.8;
     cursor: pointer;
@@ -327,6 +328,7 @@ nav .container{
 
 .contactMe img{
   max-width: 40%;
+  border-radius: 1%;
 }
 
 .contactMe a{
