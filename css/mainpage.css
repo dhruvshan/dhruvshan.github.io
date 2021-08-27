@@ -173,13 +173,6 @@ nav .container{
   color: #fff;
 }
 
-.big-title:hover{
-  text-shadow: 0 0 5px #C0C0C0,x
-  0 0 20px #fff,
-  0 0 40px #000000,
-  0 0 80px #000000;
-}
-
 .french{
   position: relative;
   text-align: left;
@@ -234,6 +227,10 @@ nav .container{
   font-size: 16px;
   line-height: 25px;
   padding: 2% 0;
+}
+
+.text span{
+  color: #fb7813;
 }
 
 .content a{
