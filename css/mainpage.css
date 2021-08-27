@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+/* Main CSS */
 *{
   padding: 0;
   margin: 0;
@@ -23,8 +23,6 @@ a:visited{
   text-decoration: none;
   color: inherit;
 }
- 
-
 
 footer{
   text-align: center;
@@ -33,12 +31,9 @@ footer{
   margin-bottom: -70px;
 }
 
-
 footer p{
   color: white;
 }
-
-
 
 /* Load in Animation*/
 .intro{
@@ -82,7 +77,6 @@ footer p{
 }
 
 /* Main css */
-
 body{
   font-family: 'Poppins', sans-serif;
   background-color: black;
@@ -110,9 +104,8 @@ header{
 .introduction{
   margin: 0 10%;
   width: fit-content;
-  height: 30vh;
+  height: 40vh;
 }
-
 
 .person{
   position: absolute;
@@ -165,8 +158,6 @@ nav .container{
   font-weight: 300;
 }
 
-
-
 .big-title{
   position: relative;
   z-index: 29;
@@ -181,8 +172,6 @@ nav .container{
 .big-title span{
   color: #fff;
 }
-
-
 
 .big-title:hover{
   text-shadow: 0 0 5px #C0C0C0,x
@@ -200,10 +189,6 @@ nav .container{
   font-size: 1.5rem;
   font-weight: 500;
 }
-
-
-
-
 
 .container-fluid{
   padding: 5% 10%;
@@ -236,11 +221,6 @@ nav .container{
   text-align: center;
 }
 
-.missionImage{
-  width: 90%;
-  /* right: 30%; */
-}
-
 .title{
   font-weight: 600;
   font-size: 1.5rem;
@@ -248,7 +228,6 @@ nav .container{
   color: #fb7813;
 
 }
-
 
 .text{
   margin: auto;
@@ -260,7 +239,6 @@ nav .container{
 .content a{
   font-size: 1.5rem;
 }
-
 
 .opacity{
   opacity: 0;
@@ -298,20 +276,15 @@ nav .container{
     cursor: pointer;
 }
 
-
-
-
 .myProjects .row{
   padding: 5% 0;
   transition: 1s;
 }
 
-
 .projectTitle{
   font-size: 1.25rem;
   font-weight: 900;
 }
-
 
 .iptsImg{
   max-width: 90%;
@@ -334,7 +307,6 @@ nav .container{
 .projectInfo{
   transition: 0.2s;
 }
-
 
 .projectDescription{
   position: relative;
@@ -373,8 +345,6 @@ nav .container{
   transform: translate(-50%, -50%);
 }
 
-
-
 /* Scrollbar */
 
 ::-webkit-scrollbar{
@@ -388,7 +358,6 @@ nav .container{
 ::-webkit-scrollbar-thumb:hover{
   background: linear-gradient(transparent, #fff);
 }
-
 
 /* Responsive behaviour */
 
@@ -438,15 +407,9 @@ nav .container{
    .contactSection{
      margin-top: 2%;
    }
-
-
  }
 
-
-
-
  /* hamburger Menu*/
-
 .menu-wrap{
   position: fixed;
   top: 0;
@@ -480,7 +443,6 @@ nav .container{
 }
 
 /* hamburger */
-
 .menu-wrap .hamburger > div {
   position: relative;
   width: 100%;
