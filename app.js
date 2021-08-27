@@ -2,7 +2,7 @@ const translate = document.querySelectorAll(".translate");
 const big_title = document.querySelector(".big-title");
 const french = document.querySelector(".french");
 const header = document.querySelector("header");
-const shadow = document.querySelector(".shadow");
+const introduction = document.querySelector(".introduction");
 const content = document.querySelector(".content");
 const section = document.querySelector("section");
 const image_container = document.querySelector(".imgContainer");
@@ -13,7 +13,7 @@ const project_list = document.querySelector(".project_list")
 
 
 
-let header_height = header.offsetHeight;
+let header_height = introduction.offsetHeight;
 let section_height = section.offsetHeight;
 
 
