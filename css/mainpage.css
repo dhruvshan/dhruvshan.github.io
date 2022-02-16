@@ -102,16 +102,14 @@ header{
 }
 
 .introduction{
-  margin: 0 10%;
-  width: fit-content;
+  margin: 0 auto;
   height: 40vh;
 }
 
 .person{
   position: absolute;
-  width: 30%;
+  width: 20%;
   top: 10%;
-  max-height: 100%;
   left: 50%;
   z-index: 20;
   opacity: 0.8;
@@ -174,17 +172,20 @@ nav .container{
 }
 
 .french{
-  position: relative;
-  text-align: left;
+  text-align: center;
   z-index: 29;
   color: #fff;
-  margin-top: 20%;
-  font-size: 1.5rem;
+  margin: 5% auto;
+  font-size: 200%;
   font-weight: 500;
 }
 
+.start{
+  padding: 0 15% 5%;
+}
+
 .container-fluid{
-  padding: 5% 10%;
+  padding: 5% 15%;
 }
 
 .container-fluid .content a{
@@ -258,7 +259,7 @@ nav .container{
 }
 
 .myProjects{
-  padding: 0% 10% 5%;
+  padding: 0% 15% 5%;
 }
 
 .myProjects a{
@@ -383,6 +384,11 @@ nav .container{
    .person{
      display: none;
    }
+
+   .introduction{
+     height: 20vh;
+   }
+
    .big-title{
      margin: 0 auto;
      font-size: 6rem;
