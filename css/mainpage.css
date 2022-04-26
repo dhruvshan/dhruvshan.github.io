@@ -169,6 +169,8 @@ nav .container{
 
 .big-title span{
   color: #fff;
+  display: block;
+  margin-top: 60px;
 }
 
 .french{
@@ -374,7 +376,7 @@ nav .container{
 
 /* Responsive behaviour */
 
- @media only screen and (max-width:1028px) {
+@media only screen and (max-width:1028px) {
    .content{
      padding-bottom: 20px;
    }
@@ -394,6 +396,11 @@ nav .container{
      font-size: 6rem;
      line-height: 80px;
    }
+
+    .big-title span{
+      margin-top: 0px;
+    }
+
    .binanceImg, .ksfImg, .iptsImg{
      max-width: 80%;
      transform: rotate(0);
@@ -425,6 +432,13 @@ nav .container{
    .contactSection{
      margin-top: 2%;
    }
+ }
+
+ @media only screen and (max-width:900px) {
+  .big-title{
+    margin: 0 auto;
+    font-size: 3rem;
+  }
  }
 
  /* hamburger Menu*/
