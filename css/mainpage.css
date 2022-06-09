@@ -159,7 +159,7 @@ nav .container{
 .big-title{
   position: relative;
   z-index: 29;
-  margin-top: 30px;
+  margin: 30px auto;
   text-align: center;
   line-height: 4rem;
   font-size: 10rem;
@@ -170,7 +170,7 @@ nav .container{
 .big-title span{
   color: #fff;
   display: block;
-  margin-top: 60px;
+  margin: 60px auto;
 }
 
 .french{
@@ -183,7 +183,8 @@ nav .container{
 }
 
 .start{
-  padding: 0 15% 5%;
+  margin: 5% auto;
+  padding: 5% 15% 5%;
 }
 
 .container-fluid{

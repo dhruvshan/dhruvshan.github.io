@@ -29,10 +29,10 @@ window.addEventListener('scroll', () => {
     element.style.opacity = scroll / (sectionY.top + section_height);
   })
 
-  big_title.style.opacity = - scroll / (header_height / 0.5) + 1;
+  big_title.style.opacity = - scroll / (header_height / 0.4) + 0.8;
   
 
-  french.style.opacity = - scroll / (header_height*0.7 / 0.5) + 1;
+  french.style.opacity = - scroll / (header_height*0.7 / 0.5) + 0.8;
   homeme.style.opacity = - scroll / (header_height / 0.5) + 0.8;
 })
 
@@ -43,7 +43,7 @@ tl.to('.slider', {y: "-100%", duration: 1.5, delay: 0.5});
 tl.to('.intro', {y: "-100%", duration: 1}, "-=1");
 tl.fromTo('nav', {opacity: 0}, {opacity: 1, duration: 0.4});
 tl.fromTo('.french', {opacity: 0}, {opacity: 1, duration: 0.4});
-tl.fromTo('.big-title', {opacity: 0}, {opacity: 1, duration: 0.6});
+tl.fromTo('.big-title', {opacity: 0}, {opacity: 1, duration: 0.4});
 
 AOS.init({
   duration:2000,
