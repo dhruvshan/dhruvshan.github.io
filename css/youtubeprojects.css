@@ -39,18 +39,8 @@ html, body{
     font-size: 8rem;
     animation: marquee 5s infinite;
   }
-  
-  /* @keyframes infiniteText {
-    0% {
-      transform: translateX(0);
-    }
-  
-    100% {
-      transform: translateX(-50%);
-    }
-  } */
 
-  #circle {
+  #circle, #circle1 {
     margin: 0 auto;
     width: 80%;
     overflow: hidden;
@@ -95,15 +85,27 @@ html, body{
   }
 
   #circle1 {
-    margin: 0 auto;
-    width: 80%;
-    overflow: hidden;
     background-image: url(../img/ipadmini.png);
-    border-radius: 50%;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position:center;
   }
+
+  .col{
+    max-height: 40vw;
+  }
+
+  #original-content{
+    color: white;
+    overflow-y: scroll;
+    max-height: 60%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    text-align: justify;
+    margin: 10% auto 0;
+    padding: 15%;
+  }
+
+  #original-content::-webkit-scrollbar {
+    display: none;
+}
 
   
   @-webkit-keyframes rotate {
