@@ -9,11 +9,14 @@ const opacity = document.querySelectorAll(".opacity");
 const border = document.querySelector(".border");
 const homeme = document.querySelector(".person");
 const project_list = document.querySelector(".project_list")
+const myProjects = document.querySelector(".myProjects");
 
 
 
 let header_height = introduction.offsetHeight;
 let section_height = section.offsetHeight;
+
+console.log(section_height);
 
 
 window.addEventListener('scroll', () => {
@@ -30,10 +33,10 @@ window.addEventListener('scroll', () => {
   })
 
   big_title.style.opacity = - scroll / (header_height / 0.4) + 0.8;
-  
-
   french.style.opacity = - scroll / (header_height*0.7 / 0.5) + 0.8;
   homeme.style.opacity = - scroll / (header_height / 0.5) + 0.8;
+  myProjects.style.opacity = scroll/ (header_height / 0.5) + 0.1;
+
 })
 
 const tl = gsap.timeline({defaults: {ease: "power1.out"}});

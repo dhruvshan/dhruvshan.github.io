@@ -185,7 +185,7 @@ nav .container{
 
 .start{
   margin: 5% auto;
-  padding: 5% 15% 5%;
+  padding: 2% 15%;
 }
 
 .container-fluid{
@@ -228,10 +228,9 @@ nav .container{
 }
 
 .text{
-  margin: auto;
-  font-size: 16px;
-  line-height: 25px;
-  padding: 2% 0;
+  text-align: justify;
+  font-size: 1.25rem;
+  padding: 0;
 }
 
 .text span{
@@ -266,7 +265,7 @@ nav .container{
   padding: 0% 15% 5%;
 }
 
-.myProjects a{
+.myProjects {
   cursor: text;
   text-decoration: none;
   color: gray;
@@ -277,12 +276,13 @@ nav .container{
     color: #fb7813;
     opacity: 0.8;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.1s;
 }
 
 .myProjects .row{
   padding: 5% 0;
   transition: 1s;
+  color: rgb(227, 227, 227);
 }
 
 .projectTitle{
@@ -292,34 +292,34 @@ nav .container{
 
 .iptsImg{
   max-width: 90%;
-  transform:  rotate3d(1, 1, -1, 45deg);
-  box-shadow: 0 5px 20px white;
+  box-shadow: 0 5px 20px rgba(171, 171, 171, 0.707);
 }
 
 .binanceImg{
   max-width: 90%;
-  transform: rotate3d(-1, 1, 1, 45deg);;
-  box-shadow: 0 5px 20px white;
+  /* transform: rotate3d(-1, 1, 1, 45deg);; */
+  box-shadow: 0 5px 20px rgba(171, 171, 171, 0.707);
 }
 
 .ksfImg{
   max-width: 90%;
-  transform:  rotate3d(1, 1, -1, 45deg);
-  box-shadow: 0 5px 20px white;
+  /* transform:  rotate3d(1, 1, -1, 45deg); */
+  box-shadow: 0 5px 20px rgba(171, 171, 171, 0.707);
 }
 
 .projectInfo{
-  transition: 0.2s;
+  transition: 1s;
+  text-align: justify;
 }
 
 .col-lg-6{
-  transition: 0.2s;
+  transition: 0.01s;
 }
 
 .projectDescription{
+  text-align: justify;
   position: relative;
   font-size: 1.25rem;
-  z-index: 999;
 }
 
 .contactSection{
