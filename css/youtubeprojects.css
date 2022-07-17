@@ -42,11 +42,11 @@ html, body{
 
   #circle, #circle1 {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     overflow: hidden;
     background-image: url(../img/mechdex.png);
     border-radius: 50%;
-    background-size: 60%;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position:center;
   }
@@ -102,7 +102,7 @@ html, body{
 
   iframe{
     height: 300px;
-    width: 100%;
+    width: 80%;
   }
 
   
